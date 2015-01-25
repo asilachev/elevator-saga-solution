@@ -95,36 +95,21 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "elevator_saga.js",
-			"settings":
-			{
-				"buffer_size": 668,
-				"line_ending": "Unix",
-				"name": "{"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 67.0,
+		"height": 0.0,
 		"selected_items":
 		[
-			[
-				"install",
-				"Package Control: Install Package"
-			]
 		],
-		"width": 449.0
+		"width": 0.0
 	},
 	"console":
 	{
 		"height": 126.0,
 		"history":
 		[
-			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
-			"print"
 		]
 	},
 	"distraction_free":
@@ -136,8 +121,13 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/asilachev/Development/Misc/elevator_saga_solution"
+	],
 	"file_history":
 	[
+		"/Users/asilachev/Development/Misc/elevator_saga_solution/elevator_saga.js",
 		"/Users/asilachev/Documents/reading.txt",
 		"/Users/asilachev/Development/eShares/repositories/eshares-certificates/infrastructure/fabfile.py",
 		"/Users/asilachev/.bash_profile",
@@ -270,40 +260,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "elevator_saga.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 668,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								189,
-								189
-							]
-						],
-						"settings":
-						{
-							"auto_name": "{",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -342,7 +300,7 @@
 	{
 		"height": 0.0
 	},
-	"project": "elevator-saga.sublime-project",
+	"project": "elevator_saga_solution.sublime-project",
 	"replace":
 	{
 		"height": 42.0
