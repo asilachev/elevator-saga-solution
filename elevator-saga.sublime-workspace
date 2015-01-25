@@ -1,0 +1,408 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Co",
+				"CompanyUserRoles"
+			],
+			[
+				"S",
+				"STRING_TO_SIGN"
+			],
+			[
+				"hosts",
+				"hosts"
+			],
+			[
+				"_i",
+				"_install_chef"
+			],
+			[
+				"D",
+				"DEVELOP"
+			],
+			[
+				"in",
+				"interpreter"
+			],
+			[
+				"eshares",
+				"eshares_dev"
+			],
+			[
+				"eshar",
+				"eshares"
+			],
+			[
+				"eshare",
+				"esharesinc"
+			],
+			[
+				"w",
+				"w_list"
+			],
+			[
+				"wo",
+				"word"
+			],
+			[
+				"n",
+				"n_str_rev"
+			],
+			[
+				"pt",
+				"pretty_number"
+			],
+			[
+				"st",
+				"string"
+			],
+			[
+				"c",
+				"chars"
+			],
+			[
+				"i",
+				"input"
+			],
+			[
+				"nex",
+				"next_letter"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"ref",
+				"ref_counter"
+			],
+			[
+				"r",
+				"ref"
+			],
+			[
+				"ma",
+				"ma_result"
+			],
+			[
+				"ma_",
+				"ma_result"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "elevator_saga.js",
+			"settings":
+			{
+				"buffer_size": 668,
+				"line_ending": "Unix",
+				"name": "{"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"print"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/asilachev/Documents/reading.txt",
+		"/Users/asilachev/Development/eShares/repositories/eshares-certificates/infrastructure/fabfile.py",
+		"/Users/asilachev/.bash_profile",
+		"/Users/asilachev/Development/eShares/repositories/eshares-certificates/infrastructure/production-db.json",
+		"/Users/asilachev/Desktop/export.xml",
+		"/Users/asilachev/Desktop/links.txt",
+		"/Users/asilachev/Desktop/ril_export.html",
+		"/Users/asilachev/Documents/books.txt",
+		"/Users/asilachev/Desktop/links_u.txt",
+		"/Users/asilachev/Downloads/instapaper_items.json",
+		"/Users/asilachev/Desktop/parse.py",
+		"/Users/asilachev/Downloads/subscriptions.xml",
+		"/Users/asilachev/links.txt",
+		"/Users/asilachev/Downloads/Booking_com Hotel Haven, Helsinki, Финляндия - 312 Отзывы гостей_ Забронируйте отель прямо сейчас!.mht",
+		"/Users/asilachev/Development/eShares/repositories/eshares-certificates/eshares/certificates/migrations/0083_backfill_accepted_date.py",
+		"/Users/asilachev/Desktop/SchoolApplicationInfo.Template.v1 - Sheet 1.csv",
+		"/Users/asilachev/Development/DjangoSolutions/scrappers/scrappers/spiders/stikhi_ru_spider.py",
+		"/Users/asilachev/Development/eShares/repositories/eshares-certificates/eshares/common/middleware.py",
+		"/Users/asilachev/Development/DjangoSolutions/scrappers/scrappers/spiders/laterloop_com_spider.py",
+		"/Users/asilachev/Desktop/gitcompletion.sh.txt",
+		"/Users/asilachev/Downloads/bootstrap-3.1.1/less/dropdowns.less",
+		"/Users/asilachev/Development/Caretactix/caretactix/apps/companies/models.py",
+		"/Users/asilachev/Development/Caretactix/caretactix/apps/access/constants.py",
+		"/Users/asilachev/Development/Caretactix/caretactix/apps/profiles/helpers.py",
+		"/Users/asilachev/Development/Caretactix/caretactix/apps/profiles/models.py",
+		"/Users/asilachev/Downloads/export.xml",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/gunicorn/README.md",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/data_bags/ssh/dev.json",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/data_bags/ssh.json",
+		"/Users/asilachev/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/asilachev/Downloads/http403project/http.py",
+		"/Users/asilachev/s3.sh",
+		"/Users/asilachev/1",
+		"/Users/asilachev/2",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/main/metadata.rb",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/python/providers/virtualenv.rb",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/python/resources/virtualenv.rb",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/python/attributes/default.rb",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/postgresql/recipes/default.rb",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/node.json",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/main/recipes/python.rb",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/postgresql/recipes/server.rb",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/main/recipes/eshares.rb",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/main/recipes/nginx.rb",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/main/files/default/gunicorn.conf",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/main/files/default/nginx/nginx.conf",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/build-essential/recipes/default.rb",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/main/definitions/virtualenv.rb",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/main/templates/default/id_rsa.pub.erb",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/main/files/default/nginx/esharesinc",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/main/recipes/default.rb",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/main/files/default/nginx/server.crt",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/main/files/default/nginx/server.key",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/eshares-common.pem",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/main/templates/default/ssh_wrapper.sh.erb",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/python/recipes/package.rb",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/python/recipes/default.rb",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/fabfile.py",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/main/files/default/nginx/mime.types",
+		"/Users/asilachev/Development/eShares/repositories/eshares-infrastructure/cookbooks/main/recipes/postgres.rb",
+		"/Users/asilachev/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/asilachev/Development/_Unsorted/FS2/evivia/apps/short_url/view_helpers.py",
+		"/Users/asilachev/Desktop/кее",
+		"/Users/asilachev/Development/_Interview/toptal/toptal_2.py",
+		"/Users/asilachev/Development/_Interview/toptal/toptal.py",
+		"/Users/asilachev/toptal.py",
+		"/Users/asilachev/.virtualenvs/eshares/lib/python2.7/site-packages/devserver/management/commands/runserver.py",
+		"/Users/asilachev/Development/eShares/repositories/eshares-certificates_/apps/certificates/ajax.py",
+		"/Users/asilachev/Development/eShares/repositories/eshares-certificates_/apps/api/resources.py",
+		"/Users/asilachev/Development/eShares/repositories/eshares-certificates_/static/fresh/js/eShares.Object.js",
+		"/Users/asilachev/Development/_Research/sammyjs/data/items.json",
+		"/Users/asilachev/Development/_Research/sammyjs/templates/item.template",
+		"/Users/asilachev/Development/_Research/sammyjs/javascripts/json_store.js",
+		"/Users/asilachev/Development/_Research/sammyjs/index.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" [[BR]]",
+			"comhttp://",
+			"\"></a>",
+			"<a href=\"",
+			"http://",
+			"https://",
+			"\\n",
+			"eshares",
+			"node",
+			"{",
+			"docs",
+			"chef",
+			"n_str_rev",
+			"LazyObservableDict",
+			"django",
+			"});"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" ",
+			"",
+			"com\\nhttp://",
+			"",
+			"<a href=\"http://",
+			"<a href=\"https://",
+			"\"></a>\\n",
+			"\"></a>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "elevator_saga.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 668,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								189,
+								189
+							]
+						],
+						"settings":
+						{
+							"auto_name": "{",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "elevator-saga.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"fa",
+				"fabfile.py"
+			],
+			[
+				"",
+				"fabfile.py"
+			],
+			[
+				"es",
+				"cookbooks/main/recipes/eshares.rb"
+			],
+			[
+				"fab",
+				"fabfile.py"
+			],
+			[
+				"f",
+				"fabfile.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 297.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
