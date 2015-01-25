@@ -1,7 +1,7 @@
 {
     init: function(elevators, floors) {
         var MAX_FLOOR_NUM = floors[floors.length - 1].floorNum();
-        var LOAD_FACTOR_VALUE = 0.5;
+        var LOAD_FACTOR_VALUE = 0.75;
 
         var get_elevator = function() {
             var result = elevators[elevators.length - 1];
@@ -11,10 +11,6 @@
                     if (e.loadFactor() < 0.2) {
                         return e;
                     }                
-                    // if (e.loadFactor() < result.loadFactor()) {
-                        // result = e;
-                    // }
-
                 }
             }
             return result;
@@ -46,6 +42,10 @@
         }           
 
         var update_queue = function(e) {
+            e.destinationQueue = e.destinationQueue.filter(function(elem, pos) {
+                return e.destinationQueue.indexOf(elem) == pos;
+            });
+
             if (e.destinationQueue.length < 2) {
                 var x = e.currentFloor();
                 e.destinationQueue.sort(function(a, b) { return a - b });
@@ -74,11 +74,16 @@
                 add_destination(this, floorNum, true);
             });
 
-            // e.on("passing_floor", function(floorNum, direction) {
-            //     if (e.destinationQueue.indexOf(floorNum) === -1) {
-            //         add_destination(this, floorNum);
-            //     }
-            // });
+            e.on("passing_floor", function(floorNum, direction) {
+                e.destinationQueue = e.destinationQueue.filter(function(elem, pos) {
+                    return e.destinationQueue.indexOf(elem) == pos;
+                });                
+                
+                if (e.destinationQueue.indexOf(floorNum) != -1) {
+                    e.destinationQueue = [floorNum].concat(e.destinationQueue);
+                    e.checkDestinationQueue();  
+                }
+            });
 
             e.on("stopped_at_floor", function(floorNum) {
                 var idx = e.destinationQueue.indexOf(floorNum);
