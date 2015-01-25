@@ -8,7 +8,7 @@
             if (elevators.length > 1) {
                 for (var i=0; i<elevators.length; i++) {
                     var e = elevators[i];
-                    if (e.loadFactor() < 0.2) {
+                    if (e.loadFactor() < 0.25) {
                         return e;
                     }                
                 }
@@ -78,8 +78,10 @@
                 e.destinationQueue = e.destinationQueue.filter(function(elem, pos) {
                     return e.destinationQueue.indexOf(elem) == pos;
                 });                
-                
-                if (e.destinationQueue.indexOf(floorNum) != -1) {
+
+                var idx = e.destinationQueue.indexOf(floorNum);
+                if (idx != -1) {
+                    e.destinationQueue.splice(idx, 1);
                     e.destinationQueue = [floorNum].concat(e.destinationQueue);
                     e.checkDestinationQueue();  
                 }
