@@ -8,9 +8,13 @@
             if (elevators.length > 1) {
                 for (var i=0; i<elevators.length; i++) {
                     var e = elevators[i];
-                    if (e.loadFactor() < 0.25) {
+                    if (e.loadFactor() === 0) {
                         return e;
-                    }                
+                    } else {
+                        if (e.loadFactor() < result.loadFactor()) {
+                            result = e;
+                        }
+                    }               
                 }
             }
             return result;
@@ -46,14 +50,14 @@
                 return e.destinationQueue.indexOf(elem) == pos;
             });
 
-            if (e.destinationQueue.length < 2) {
+            if (e.destinationQueue.length > 1) {
                 var x = e.currentFloor();
                 e.destinationQueue.sort(function(a, b) { return a - b });
 
                 if (e.goingUpIndicator()) {
                     a1 = e.destinationQueue.slice(e.destinationQueue.indexOf(get_closest_values(e.destinationQueue, x)[0]))
                     a2 = e.destinationQueue.slice(0, e.destinationQueue.indexOf(get_closest_values(e.destinationQueue, x)[0])).reverse();
-                    e.destinationQueue = a1.concat(a2);
+                    e.destinationQueue = a1.concat(a2);                
                 } else {
                     a1 = e.destinationQueue.slice(0, e.destinationQueue.indexOf(get_closest_values(e.destinationQueue, x)[0])).reverse();
                     a2 = e.destinationQueue.slice(e.destinationQueue.indexOf(get_closest_values(e.destinationQueue, x)[0]));
@@ -87,13 +91,13 @@
                 }
             });
 
-            e.on("stopped_at_floor", function(floorNum) {
-                var idx = e.destinationQueue.indexOf(floorNum);
-                if (e.destinationQueue.indexOf(floorNum) > -1) {
-                    e.destinationQueue.splice(idx, 1);
-                    update_queue(e);
-                }
-            });
+            // e.on("stopped_at_floor", function(floorNum) {
+            //     var idx = e.destinationQueue.indexOf(floorNum);
+            //     if (e.destinationQueue.indexOf(floorNum) > -1) {
+            //         e.destinationQueue.splice(idx, 1);
+            //         update_queue(e);
+            //     }
+            // });
         }
 
         for (var i_f=0; i_f<floors.length; i_f++) {
