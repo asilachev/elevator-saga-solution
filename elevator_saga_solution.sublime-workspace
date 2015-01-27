@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"lo",
+				"loadFactor"
+			],
+			[
+				"flor",
+				"floorNum"
+			],
+			[
+				"floo",
+				"floorNum"
+			],
+			[
+				"in",
+				"indexOf"
+			],
+			[
+				"des",
+				"destinationQueue"
+			],
+			[
+				"c",
+				"currentFloor"
+			],
+			[
+				"up",
+				"update_queue"
+			],
+			[
 				"Co",
 				"CompanyUserRoles"
 			],
@@ -22,10 +50,6 @@
 			[
 				"D",
 				"DEVELOP"
-			],
-			[
-				"in",
-				"interpreter"
 			],
 			[
 				"eshares",
@@ -58,10 +82,6 @@
 			[
 				"st",
 				"string"
-			],
-			[
-				"c",
-				"chars"
 			],
 			[
 				"i",
@@ -127,6 +147,8 @@
 	],
 	"file_history":
 	[
+		"/Users/asilachev/Development/Misc/elevator_saga_solution/main.js",
+		"/Users/asilachev/Development/eShares/repositories/eshares-certificates/eshares/common/management/commands/db_local_backup.py",
 		"/Users/asilachev/Development/Misc/elevator_saga_solution/elevator_saga.js",
 		"/Users/asilachev/Documents/reading.txt",
 		"/Users/asilachev/Development/eShares/repositories/eshares-certificates/infrastructure/fabfile.py",
@@ -357,7 +379,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 297.0,
 	"status_bar_visible": true,
 	"template_settings":

@@ -59,10 +59,10 @@
                     a2 = e.destinationQueue.slice(0, e.destinationQueue.indexOf(get_closest_values(e.destinationQueue, x)[0])).reverse();
                     e.destinationQueue = a1.concat(a2);                
                 } else {
-                    a1 = e.destinationQueue.slice(0, e.destinationQueue.indexOf(get_closest_values(e.destinationQueue, x)[0])).reverse();
-                    a2 = e.destinationQueue.slice(e.destinationQueue.indexOf(get_closest_values(e.destinationQueue, x)[0]));
-                    e.destinationQueue = a1.concat(a2);
-                }
+                   a1 = e.destinationQueue.slice(0, e.destinationQueue.indexOf(get_closest_values(e.destinationQueue, x)[0])).reverse();
+                   a2 = e.destinationQueue.slice(e.destinationQueue.indexOf(get_closest_values(e.destinationQueue, x)[0]));
+                   e.destinationQueue = a1.concat(a2);
+               }
                 
                 e.checkDestinationQueue();  
             }                   
@@ -79,15 +79,17 @@
             });
 
             e.on("passing_floor", function(floorNum, direction) {
-                e.destinationQueue = e.destinationQueue.filter(function(elem, pos) {
-                    return e.destinationQueue.indexOf(elem) == pos;
-                });                
+                if (direction == "down") {
+                    e.destinationQueue = e.destinationQueue.filter(function(elem, pos) {
+                        return e.destinationQueue.indexOf(elem) == pos;
+                    });                
 
-                var idx = e.destinationQueue.indexOf(floorNum);
-                if (idx != -1) {
-                    e.destinationQueue.splice(idx, 1);
-                    e.destinationQueue = [floorNum].concat(e.destinationQueue);
-                    e.checkDestinationQueue();  
+                    var idx = e.destinationQueue.indexOf(floorNum);
+                    if (idx != -1) {
+                        e.destinationQueue.splice(idx, 1);
+                        e.destinationQueue = [floorNum].concat(e.destinationQueue);
+                        e.checkDestinationQueue();  
+                    }
                 }
             });
 
