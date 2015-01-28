@@ -93,13 +93,13 @@
                 }
             });
 
-            // e.on("stopped_at_floor", function(floorNum) {
-            //     var idx = e.destinationQueue.indexOf(floorNum);
-            //     if (e.destinationQueue.indexOf(floorNum) > -1) {
-            //         e.destinationQueue.splice(idx, 1);
-            //         update_queue(e);
-            //     }
-            // });
+            e.on("stopped_at_floor", function(floorNum) {
+                var idx = e.destinationQueue.indexOf(floorNum);
+                if (e.destinationQueue.indexOf(floorNum) > -1) {
+                    e.destinationQueue.splice(idx, 1);
+                    update_queue(e);
+                }
+            });
         }
 
         for (var i_f=0; i_f<floors.length; i_f++) {
